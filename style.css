@@ -1,6 +1,6 @@
 /*-----------------------------------------------------------------------------------
 	Weiran Personal
-	About: A shiny new Blocs website.
+	About: personal website for academic presentation
 	Author: Weiran Zheng
 	Version: 1.0
 	Built with Blocs
@@ -52,6 +52,19 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 .bloc-sm{
 	padding:20px;
+}
+
+
+/* Background Styles */
+
+.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
+	-webkit-background-size: auto!important;
+	-moz-background-size: auto!important;
+	-o-background-size: auto!important;
+	background-size: auto!important;
+}
+.bg-b-edge{
+	background: bottom no-repeat;
 }
 
 
@@ -381,7 +394,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .pubblock{
 	border-style:_popUpItemAction:;
 	max-height:500px;
-	background-size:length;
+	background-size:100px auto;
 	box-shadow:4px 4px 8px rgba(0,0,0,0.20);
 	margin:auto auto auto auto;
 	padding:auto auto auto auto;
@@ -390,6 +403,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .normaltext{
 	font-weight:lighter;
 	text-align:justify;
+}
+.foot-stay{
+	bottom:auto;
+	align-content:center;
+	align-items:flex-end;
+	flex-wrap:wrap-reverse;
+	float:none;
 }
 
 /* = Colour
@@ -412,6 +432,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Bloc image backgrounds */
 
+
+/* = Custom Bric Data
+-------------------------------------------------------------- */
 
 
 

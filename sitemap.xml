@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url>
+	<loc>https://weiranec.github.io</loc>
+	<lastmod>2021-02-20</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>1.0</priority>
+	<image:image>
+	<image:loc>https://weiranec.github.io/img/photo%20round-01.png</image:loc>
+	<image:title>photo%2520round%2001</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://weiranec.github.io/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://weiranec.github.io/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://weiranec.github.io/publications.html</loc>
+	<lastmod>2021-02-20</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://weiranec.github.io/img/cs9b03790_0007.gif</image:loc>
+	<image:title>slide%203</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://weiranec.github.io/img/1-s2.0-S0926337319305703-ga1.jpg</image:loc>
+	<image:title>1%20s2.0-S0926337319305703-ga1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://weiranec.github.io/img/celc201700712-fig-0004-m.jpg</image:loc>
+	<image:title>celc201700712%20fig-0004-m</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://weiranec.github.io/img/aenm201903490-gra-0001-m.jpg</image:loc>
+	<image:title>celc201700712%20fig-0004-m</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://weiranec.github.io/img/nz0c01958_0001-2.gif</image:loc>
+	<image:title>celc201700712%20fig-0004-m</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://weiranec.github.io/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://weiranec.github.io/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+</urlset>
