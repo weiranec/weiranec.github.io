@@ -52,4 +52,26 @@
 	<image:title>Facebook Social Card Image</image:title>
 	</image:image>
 </url>
+<url>
+	<loc>https://weiranec.github.io/showcase.html</loc>
+	<lastmod>2021-02-20</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://weiranec.github.io/img/admi201870106-gra-0001-m.jpg</image:loc>
+	<image:title>placeholder%20image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://weiranec.github.io/img/aenm202070130-gra-0001-m.jpg</image:loc>
+	<image:title>placeholder%20image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://weiranec.github.io/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://weiranec.github.io/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
 </urlset>
