@@ -426,9 +426,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	justify-content:center;
 }
 .textlink{
-	text-decoration:underline!important;
-	font-style:italic;
-	color:#001C3D!important;
+	text-decoration:none;
+	color:#0096FF!important;
+	font-weight:normal;
 }
 .pub-project-head{
 	color:#001C3D!important;
@@ -476,13 +476,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-weight:lighter;
 	text-align:justify;
 }
-.p-style{
-	font-family:"helvetica";
-	font-weight:lighter;
-	text-align:center;
-}
 .text-general{
 	font-weight:lighter;
+}
+.pub-list{
+	font-size:16px;
+	font-weight:lighter;
+}
+.copyright{
+	align-content:center;
+	display:flex;
+	align-items:center;
+	justify-content:flex-end;
+	margin:auto auto auto auto;
+	padding:auto auto auto auto;
 }
 
 /* = Colour
