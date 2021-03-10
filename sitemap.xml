@@ -74,4 +74,22 @@
 	<image:title>Facebook Social Card Image</image:title>
 	</image:image>
 </url>
+<url>
+	<loc>https://weiranec.github.io/activity.html</loc>
+	<lastmod>2021-03-10</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://weiranec.github.io/img/spectroelectrochem.jpg</image:loc>
+	<image:title>spectroelectrochem</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://weiranec.github.io/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://weiranec.github.io/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
 </urlset>

@@ -47,6 +47,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Sizes */
 
+.bloc-lg{
+	padding:100px 20px;
+}
 .bloc-sm{
 	padding:20px;
 }
@@ -521,6 +524,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .hfont-lighter{
 	font-weight:lighter;
+}
+.gallery-credit{
+	font-weight:lighter;
+	text-align:left;
+	font-size:13px;
 }
 
 /* = Colour
