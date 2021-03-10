@@ -425,11 +425,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .container-div-style{
 	width:40%;
 }
-.row-style{
-	margin-left:100px;
-	margin-right:100px;
-	justify-content:center;
-}
 .textlink{
 	text-decoration:none;
 	color:#0096FF!important;
@@ -479,8 +474,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-weight:lighter;
 }
 .pub-list{
-	font-size:16px;
+	font-size:15px;
 	font-weight:lighter;
+	line-height:19px;
 }
 .copyright{
 	align-content:center;
@@ -500,7 +496,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .readmore{
 	font-weight:lighter;
-	color:#919191!important;
+	color:#929292!important;
 	text-align:justify;
 	position:absolute;
 	bottom:2px;
@@ -509,6 +505,19 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	align-items:center;
 	flex-direction:row-reverse;
 	right:2px;
+}
+.icons{
+	display:flex;
+	overflow:visible;
+	justify-content:center;
+	top:0px;
+}
+.contact{
+	font-size:14px;
+	font-weight:lighter;
+	color:#424242!important;
+	text-align:left;
+	line-height:20px;
 }
 
 /* = Colour
@@ -626,9 +635,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 
 @media (max-width: 991px){
-	.row-style{
-		margin:0px 0px 0px 0px;
-	}
 	.mt-md-0{
 	}
 	.mt-md-4{
@@ -662,9 +668,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 
 @media (max-width: 575px){
-	.row-style{
-		justify-content:center;
-	}
 	.text-center{
 	}
 	.mt-1{
@@ -678,7 +681,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	
 	/* Mobile Text Margin Offsets */
-	.mg-clear-xs{
+	.mg-sm-xs{
+		margin-top:10px;
+		margin-bottom:5px;
+	}
+		.mg-clear-xs{
 		margin:0;
 	}
 	
