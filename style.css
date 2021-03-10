@@ -484,7 +484,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	align-items:center;
 	justify-content:flex-end;
 	font-weight:lighter;
-	color:#919191!important;
+	color:#5E5E5E!important;
 	margin:auto auto auto auto;
 	padding:auto auto auto auto;
 }
@@ -515,7 +515,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .contact{
 	font-size:14px;
 	font-weight:lighter;
-	color:#424242!important;
+	color:#5E5E5E!important;
 	text-align:left;
 	line-height:20px;
 }
