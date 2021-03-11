@@ -28,17 +28,17 @@ a:hover{text-decoration: none; cursor:pointer;}
 -------------------------------------------------------------- */
 
 @font-face {
-	font-family:'MuseoSans-500';
-	src: url('./fonts/MuseoSans-500/museosans-500-webfont.woff');
-	src: url('./fonts/MuseoSans-500/museosans-500-webfont.woff') format('woff');
+	font-family:'MuseoSans-300';
+	src: url('./fonts/MuseoSans-300/museosans-300-webfont.woff');
+	src: url('./fonts/MuseoSans-300/museosans-300-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family:'MuseoSans-300';
-	src: url('./fonts/MuseoSans-300/museosans-300-webfont.woff');
-	src: url('./fonts/MuseoSans-300/museosans-300-webfont.woff') format('woff');
+	font-family:'MuseoSans-500';
+	src: url('./fonts/MuseoSans-500/museosans-500-webfont.woff');
+	src: url('./fonts/MuseoSans-500/museosans-500-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -177,6 +177,16 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 .navbar-dark .nav .dropdown-menu .nav-link{
 	color: rgb(64, 64, 64);
+}
+/* = Sticky Nav
+-------------------------------------------------------------- */
+
+.sticky-nav.sticky{
+	position:fixed;
+	top:0;
+	z-index:1000;
+	box-shadow:0 1px 2px rgba(0,0,0,.3);
+	 transition: all .2s ease-out;
 }
 /* Handle Multi Level Navigation */.navbar-light .navbar-nav .nav-link {
 	color: rgb(64, 64, 64);
@@ -469,10 +479,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"MuseoSans-500";
 }
 .main-tabs{
-	font-weight:500;
+	font-weight:normal;
 	font-family:"MuseoSans-300";
 	text-transform:none;
 	font-size:20px;
+	display:flex;
+	align-items:center;
+	color:#FEFFFF!important;
 	margin:10px 10px 10px 10px;
 	padding:auto auto auto auto;
 }
@@ -575,6 +588,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .normaltext-500{
 	font-family:"MuseoSans-500";
 }
+.logo{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	align-content:center;
+}
+.nopadding{
+	margin:auto auto auto auto;
+	padding:0px 0px 0px 0px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -591,14 +614,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-color:#EAEAEA;
 }
 
+/* Text colour styles */
+
+.tc-black{
+	color:#000000!important;
+}
+
 /* Link colour styles */
 
-.ltc-white{
-	color:#FFFFFF!important;
-}
-.ltc-white:hover{
-	color:#cccccc!important;
-}
 .ltc-azure{
 	color:#0096FF!important;
 }
@@ -730,9 +753,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.text-center{
 	}
 	.mt-1{
-	}
-	.row-bloc-0-style{
-		width:100%;
 	}
 	.color-white{
 		color:#FEFFFF!important;
