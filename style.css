@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	Weiran Personal
+	Weiran Zheng
 	About: personal website for academic presentation
 	Author: Weiran Zheng
 	Version: 1.0
@@ -423,37 +423,15 @@ a[data-lightbox]:hover img{
 -------------------------------------------------------------- */
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
-	font-family:"Helvetica";
+	font-family:"MuseoSans-300";
 	color:#000000!important;
 }
 .container{
 	max-width:1140px;
 }
-.h4-style{
-	font-size:18px;
-}
-.carousel-style{
-	width:100%;
-}
-.h4-location-style{
-	font-size:18px;
-	line-height:21px;
-}
-.h4-5-style{
-	font-size:18px;
-	line-height:21px;
-}
-.team-card{
-	min-height:350px;
-}
 .img-style{
 	width:160px;
 	height:160px;
-}
-.head-label{
-	margin-right:30px;
-	margin-left:30px;
-	border-style:_popUpItemAction:;
 }
 .icon{
 	width:0px;
@@ -461,9 +439,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .text-center{
 	text-align:center;
-}
-.container-div-style{
-	width:40%;
 }
 .textlink{
 	text-decoration:none;
@@ -496,10 +471,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin:0px 0px 0px 0px;
 	padding:0px 0px 0px 0px;
 }
-.publication-block{
-	margin:0px 0px 0px 0px;
-	padding:0px 0px 0px 0px;
-}
 .img-icon-1-style{
 	width:120px;
 	padding:auto auto auto auto;
@@ -519,9 +490,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"MuseoSans-300";
 	font-size:16px;
 }
-.text-general{
-	font-weight:lighter;
-}
 .pub-list{
 	font-weight:normal;
 	text-align:justify;
@@ -539,9 +507,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"MuseoSans-100";
 	margin:auto auto auto auto;
 	padding:auto auto auto auto;
-}
-.homepage-titles{
-	font-weight:lighter;
 }
 .sec-title{
 	font-weight:normal;
@@ -575,18 +540,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	line-height:20px;
 	font-family:"MuseoSans-100";
 }
-.font-lighter{
-	font-weight:lighter;
-	font-family:"MuseoSans-500";
-}
 .gallery-credit{
 	font-weight:normal;
 	text-align:right;
 	font-size:14px;
 	font-family:"MuseoSans-100";
-}
-.normaltext-500{
-	font-family:"MuseoSans-500";
 }
 .logo{
 	display:flex;
@@ -597,6 +555,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .nopadding{
 	margin:auto auto auto auto;
 	padding:0px 0px 0px 0px;
+}
+.museofont{
+	font-family:"MuseoSans-500";
 }
 
 /* = Colour
@@ -719,8 +680,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 @media (max-width: 991px){
 	.mt-md-0{
 	}
-	.mt-md-4{
-	}
 	
 	/* MD Row Margin Offsets */
 	.voffset-clear-md{
@@ -754,21 +713,22 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.mt-1{
 	}
-	.color-white{
-		color:#FEFFFF!important;
-		font-weight:normal;
-	}
-	.p-style{
-		font-size:14px;
-	}
 	.p-bloc-7-style{
 		font-size:14px;
+	}
+	.divider-padding{
+		padding-top:4px;
+		padding-bottom:4px;
 	}
 	
 	/* Mobile Text Margin Offsets */
 	.mg-sm-xs{
 		margin-top:10px;
 		margin-bottom:5px;
+	}
+		.mg-md-xs{
+		margin-top:10px;
+		margin-bottom:20px;
 	}
 		.mg-clear-xs{
 		margin:0;
