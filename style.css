@@ -24,6 +24,33 @@ a:hover{text-decoration: none; cursor:pointer;}
 .preloader-complete{animation-delay:0.1s;}
 @keyframes preloader-fade {0% {opacity: 1;visibility: visible;}100% {opacity: 0;visibility: hidden;}}
 
+/* = Web Fonts
+-------------------------------------------------------------- */
+
+@font-face {
+	font-family:'MuseoSans-500';
+	src: url('./fonts/MuseoSans-500/museosans-500-webfont.woff');
+	src: url('./fonts/MuseoSans-500/museosans-500-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'MuseoSans-300';
+	src: url('./fonts/MuseoSans-300/museosans-300-webfont.woff');
+	src: url('./fonts/MuseoSans-300/museosans-300-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'MuseoSans-100';
+	src: url('./fonts/MuseoSans-100/museosans-100-webfont.woff');
+	src: url('./fonts/MuseoSans-100/museosans-100-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
 /* = Blocs
 -------------------------------------------------------------- */
 
@@ -432,15 +459,19 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	text-decoration:none;
 	color:#0096FF!important;
 	font-weight:normal;
+	font-family:"MuseoSans-300";
 }
 .pub-project-head{
 	color:#001C3D!important;
 	text-align:center;
 	text-transform:none;
 	font-weight:lighter;
+	font-family:"MuseoSans-500";
 }
 .main-tabs{
-	font-weight:lighter;
+	font-weight:500;
+	font-family:"MuseoSans-300";
+	text-transform:none;
 	font-size:20px;
 	margin:10px 10px 10px 10px;
 	padding:auto auto auto auto;
@@ -470,18 +501,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-width:1px 1px 1px 1px;
 }
 .normaltext{
-	font-weight:lighter;
+	font-weight:normal;
 	text-align:justify;
+	font-family:"MuseoSans-300";
+	font-size:16px;
 }
 .text-general{
 	font-weight:lighter;
 }
 .pub-list{
-	font-size:14px;
-	font-weight:lighter;
-	line-height:20px;
+	font-weight:normal;
 	text-align:justify;
 	white-space:normal;
+	font-family:"MuseoSans-100";
+	font-size:15px;
 }
 .copyright{
 	align-content:center;
@@ -490,6 +523,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	justify-content:flex-end;
 	font-weight:lighter;
 	color:#5E5E5E!important;
+	font-family:"MuseoSans-100";
 	margin:auto auto auto auto;
 	padding:auto auto auto auto;
 }
@@ -497,10 +531,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-weight:lighter;
 }
 .sec-title{
-	font-weight:lighter;
+	font-weight:normal;
+	font-family:"MuseoSans-500";
 }
 .readmore{
-	font-weight:lighter;
+	font-weight:normal;
 	color:#929292!important;
 	text-align:justify;
 	position:absolute;
@@ -510,6 +545,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	align-items:center;
 	flex-direction:row-reverse;
 	right:2px;
+	text-transform:lowercase;
+	font-family:"MuseoSans-100";
 }
 .icons{
 	display:flex;
@@ -519,21 +556,24 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .contact{
 	font-size:14px;
-	font-weight:lighter;
+	font-weight:normal;
 	color:#5E5E5E!important;
 	text-align:left;
 	line-height:20px;
+	font-family:"MuseoSans-100";
 }
-.hfont-lighter{
+.font-lighter{
 	font-weight:lighter;
+	font-family:"MuseoSans-500";
 }
 .gallery-credit{
-	font-weight:lighter;
-	text-align:left;
-	font-size:13px;
-}
-.p-style{
+	font-weight:normal;
+	text-align:right;
 	font-size:14px;
+	font-family:"MuseoSans-100";
+}
+.normaltext-500{
+	font-family:"MuseoSans-500";
 }
 
 /* = Colour
@@ -545,6 +585,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-color:#001C3D;
 }
 .bgc-platinum{
+	background-color:#EAEAEA;
+}
+.bgc-platinum-2{
 	background-color:#EAEAEA;
 }
 
@@ -696,7 +739,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		font-weight:normal;
 	}
 	.p-style{
-		font-size:10px;
+		font-size:14px;
+	}
+	.p-bloc-7-style{
+		font-size:14px;
 	}
 	
 	/* Mobile Text Margin Offsets */
