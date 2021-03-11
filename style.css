@@ -477,9 +477,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-weight:lighter;
 }
 .pub-list{
-	font-size:15px;
+	font-size:14px;
 	font-weight:lighter;
-	line-height:19px;
+	line-height:20px;
+	text-align:justify;
+	white-space:normal;
 }
 .copyright{
 	align-content:center;
@@ -529,6 +531,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-weight:lighter;
 	text-align:left;
 	font-size:13px;
+}
+.p-style{
+	font-size:14px;
 }
 
 /* = Colour
@@ -689,6 +694,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.color-white{
 		color:#FEFFFF!important;
 		font-weight:normal;
+	}
+	.p-style{
+		font-size:10px;
 	}
 	
 	/* Mobile Text Margin Offsets */
