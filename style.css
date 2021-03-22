@@ -716,19 +716,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.p-bloc-7-style{
 		font-size:14px;
 	}
-	.divider-padding{
-		padding-top:4px;
-		padding-bottom:4px;
-	}
 	
 	/* Mobile Text Margin Offsets */
 	.mg-sm-xs{
 		margin-top:10px;
 		margin-bottom:5px;
-	}
-		.mg-md-xs{
-		margin-top:10px;
-		margin-bottom:20px;
 	}
 		.mg-clear-xs{
 		margin:0;
