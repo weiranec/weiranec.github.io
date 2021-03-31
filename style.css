@@ -494,7 +494,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-weight:normal;
 	text-align:justify;
 	white-space:normal;
-	font-family:"MuseoSans-100";
+	font-family:"MuseoSans-300";
 	font-size:15px;
 }
 .copyright{
@@ -542,7 +542,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .gallery-credit{
 	font-weight:normal;
-	text-align:right;
+	text-align:left;
 	font-size:14px;
 	font-family:"MuseoSans-100";
 }
