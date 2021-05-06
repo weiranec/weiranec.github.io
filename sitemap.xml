@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://weiranec.github.io</loc>
-	<lastmod>2021-04-28</lastmod>
+	<lastmod>2021-05-06</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -20,7 +20,7 @@
 </url>
 <url>
 	<loc>https://weiranec.github.io/research/</loc>
-	<lastmod>2021-04-28</lastmod>
+	<lastmod>2021-05-06</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -54,7 +54,7 @@
 </url>
 <url>
 	<loc>https://weiranec.github.io/gallery/</loc>
-	<lastmod>2021-04-28</lastmod>
+	<lastmod>2021-05-06</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -70,6 +70,10 @@
 	<image:title>placeholder%20image-sq</image:title>
 	</image:image>
 	<image:image>
+	<image:loc>https://weiranec.github.io/img/smll202170079-gra-0001-m.jpg</image:loc>
+	<image:title>placeholder%20image-sq</image:title>
+	</image:image>
+	<image:image>
 	<image:loc>https://weiranec.github.io/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
 	</image:image>
@@ -80,7 +84,7 @@
 </url>
 <url>
 	<loc>https://weiranec.github.io/activity/</loc>
-	<lastmod>2021-04-28</lastmod>
+	<lastmod>2021-05-06</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
