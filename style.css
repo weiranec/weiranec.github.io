@@ -252,6 +252,18 @@ button{
 	box-shadow: none;
 	padding:0;
 }
+.a-block{
+	width:100%;
+	text-align:left;
+	display: inline-block;
+}
+.text-center .a-block{
+	text-align:center;
+}
+.dropdown a .caret{
+	margin:0 0 0 5px}.btn-dropdown .dropdown-menu .dropdown{
+	padding: 3px 20px;
+}
 
 /* = Icons
 -------------------------------------------------------------- */
